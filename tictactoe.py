@@ -6,7 +6,7 @@ from tkinter import ttk, messagebox
 from ttkthemes import ThemedStyle
 
 def is_winner(board, player):
-    """Check if a player has won the game."""
+    """Checks if a player has won the game."""
     for i in range(3):
         if all(board[i][j] == player for j in range(3)) or \
            all(board[j][i] == player for j in range(3)):
