@@ -18,7 +18,7 @@ This is a Python implementation of Tic Tac Toe with a graphical user interface (
 
 - Graphical user interface using Tkinter
 - Player vs AI gameplay
-- AI opponent with minimax algorithm
+- AI opponent with the minimax algorithm
 
 ## Installation
 
