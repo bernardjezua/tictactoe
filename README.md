@@ -45,4 +45,4 @@ This is a Python implementation of Tic Tac Toe with a graphical user interface (
 Run the following command to start the Tic Tac Toe game:
 
 ```bash
-python tic_tac_toe.py
+python tictactoe.py
