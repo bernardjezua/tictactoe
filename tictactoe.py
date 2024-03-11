@@ -52,7 +52,6 @@ def minimax(board, depth, maximizing_player):
 
 def get_best_move(board):
     """Gets the best move for the AI using the minimax algorithm."""
-    """The AI will choose the move with the highest value."""
     best_val = float('-inf')
     best_move = None
     for i, j in get_empty_cells(board):
